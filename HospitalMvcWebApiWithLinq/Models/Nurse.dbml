@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Hospital" Class="NurseDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=laptop-0hsc4h8o;Initial Catalog=Hospital;Integrated Security=True;Pooling=False" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="HospitalConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Nurse" Member="Nurses">
+    <Type Name="Nurse">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="lName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="wage" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="hourWork" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="birthday" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
