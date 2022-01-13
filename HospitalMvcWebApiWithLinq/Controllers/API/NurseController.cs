@@ -10,7 +10,6 @@ namespace HospitalMvcWebApiWithLinq.Controllers.API
 {
     public class NurseController : ApiController
     {
-        string stringCollection = @"Data Source=laptop-0hsc4h8o;Initial Catalog=Hospital;Integrated Security=True;Pooling=False";
         NurseDataContext DataContext = new NurseDataContext();
 
         // GET: api/Nurse
